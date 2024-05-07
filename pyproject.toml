@@ -6,15 +6,12 @@ authors = ["유지민 <86466319+jimin-yu@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.9"
 pandas = "^2.2.2"
 fastparquet = "^2024.2.0"
 sqlalchemy = "^2.0.29"
 mysql-connector-python = "^8.3.0"
-tensorflow = "^2.16.1"
-tensorflow-recommenders = "0.7.2"
 scikit-learn = "^1.4.2"
-
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
