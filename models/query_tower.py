@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras.layers.experimental.preprocessing import StringLookup, Normalization
+from tensorflow.keras.layers import StringLookup, Normalization
 
 class QueryTower(tf.keras.Model):
 

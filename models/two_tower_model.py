@@ -8,7 +8,7 @@ class TwoTowerModel(tf.keras.Model):
         self.item_model = item_model
         self.task = tfrs.tasks.Retrieval(
             metrics=tfrs.metrics.FactorizedTopK(
-                candidates=item_ds.batch(2048).map(self.item_model)
+                candidates=item_ds.batch(448).map(self.item_model)
             )
         )
 
