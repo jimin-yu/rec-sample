@@ -8,4 +8,5 @@ CREATE TABLE students (
 INSERT INTO students (name, age) VALUES
   ('Mkyong', 40),
   ('Ali', 28),
-  ('Teoh', 18);
+  ('Teoh', 18),
+  ('Jimin', 10);
